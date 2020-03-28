@@ -42,3 +42,101 @@ body {
     font-weight: normal;
     color: #666666;
 }
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 74%;
+    margin: 0 auto;
+}
+
+.header-index {
+    padding-top: 33px;
+    background-color: #1B2D37;
+    background-image: url("../img/header.png");
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;    
+    width: 100%;
+    align-items: center;
+}
+
+.header-index a {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.basic-info {
+    color: #ffffff;
+    background-image: url("../img/boards.png");
+}
+
+.basic-info h1 {
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 94px;
+    text-transform: uppercase;
+}
+
+.call-button {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    text-transform: uppercase;
+    border: 1px solid #ffffff;
+    padding: 12px 26px;
+    border-radius: 5px;
+}
+
+.logo {
+    padding-right: 8%;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+  }
+
+  .information {
+      background-color: #ffffff;
+      background-image: url("../img/polygons-content.png");
+  }
+
+.advantages {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.advantages-block {
+    width: 41%;
+}
+  .about-company {
+
+  }
+
+  .about-company h2 {
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-size: 36px;
+    line-height: 51px;
+    color: #666666;
+    font-weight: normal;
+  }
