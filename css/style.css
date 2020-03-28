@@ -1,0 +1,44 @@
+/* roboto-condensed-regular - latin_cyrillic */
+@font-face {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 400;
+    src: 
+         url("../fonts/roboto-condensed-v18-latin_cyrillic-regular.woff2") format('woff2'), 
+         url("../fonts/roboto-condensed-v18-latin_cyrillic-regular.woff") format('woff');
+  }
+  /* roboto-condensed-700 - latin_cyrillic */
+  @font-face {
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 700;
+    src: 
+         url("../fonts/roboto-condensed-v18-latin_cyrillic-700.woff2") format('woff2'), 
+         url("../fonts/roboto-condensed-v18-latin_cyrillic-700.woff") format('woff');
+  }
+
+/* pt-mono-regular - latin_cyrillic */
+@font-face {
+    font-family: "PT Mono";
+    font-style: normal;
+    font-weight: 400;
+    src:
+         url("../fonts/pt-mono-v7-latin_cyrillic-regular.woff2") format('woff2'), 
+         url("../fonts/pt-mono-v7-latin_cyrillic-regular.woff") format('woff');
+  }
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "PT Mono", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #666666;
+}
