@@ -72,7 +72,35 @@ a {
 }
 
 .navigation-list li:nth-child(1) {
-    padding-right: 23%;
+    width: 700px;
+}
+
+.telephone {
+    position: relative;
+}
+
+.email {
+    position: relative;
+}
+
+.telephone::before {
+    content: "";
+    position: absolute;
+    top: 27px;
+    left: 20px;
+    width: 18px;
+    height: 18px;
+    background: url(../img/svg/phone-call.svg) no-repeat center;
+}
+
+.email::before {
+    content: "";
+    position: absolute;
+    top: 27px;
+    left: 20px;
+    width: 19px;
+    height: 14px;
+    background: url(../img/svg/envelope.svg) no-repeat center;
 }
 
 .header-index a {
@@ -140,18 +168,32 @@ a {
 .information {
     background-color: #ffffff;
     background-image: url("../img/polygons-content.png");
-    padding-top: 110px;
+    padding-top: 80px;
 }
 
 .advantages {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    padding-bottom: 110px;
+    width: 1260px;
+    margin: 0 auto;
 }
 
 .advantages-block {
     width: 570px;
+    min-height: 300px;
+    box-sizing: border-box;
     padding: 40px 45px 50px 43px;
+    margin: 30px 30px;
+    background-color: #ffffff;
+    border-top: 1px solid #EBEBEB;
+    border-bottom: 1px solid #EBEBEB;
+    border-right: 1px solid #EBEBEB;
+    border-left: 3px solid #00B2FF;
+}
+
+.advantages-block svg {
+    fill:#00B2FF;
 }
 
 .advantages-block p {
@@ -167,7 +209,32 @@ a {
     color: #00B2FF;
 }
 
-.about-company {}
+
+.advantages-block:hover {
+    background-color: #00B2FF;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.advantages-block:hover svg {
+    fill: #ffffff;
+}
+
+.advantages-block:hover h3 {
+    color: #ffffff;
+}
+
+.text-company {
+    padding-bottom: 40px;
+    line-height: 22px;
+}
+
+.about-company {
+    padding-bottom: 96px;
+    margin-left: 345px;
+    margin-right: 380px;
+    display: flex;
+}
 
 .about-company h2 {
     font-family: "Roboto Condensed", Arial, sans-serif;
@@ -175,6 +242,8 @@ a {
     line-height: 51px;
     color: #666666;
     font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 35px;
 }
 
 .free {
@@ -196,4 +265,43 @@ a {
     padding: 15px 48px;
     border: 1px solid #00B2FF;
     border-radius: 5px;
+}
+
+.product {
+    background-color: #1B2D37;
+}
+
+.product h2 {
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 51px;
+    color: #ffffff;
+}
+
+.services {
+    padding: 93px 375px 127px 375px;
+}
+
+.product-list {
+    list-style: none;
+    display: flex;
+    width: 1170px;
+}
+
+.product-list h3 {
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    color: #ffffff;
+    width: 155px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 65px;
+}
+
+.text-company-last {
+    margin-bottom: 43px;
+}
+
+.product-list a {
+
 }
