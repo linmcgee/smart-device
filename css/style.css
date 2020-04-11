@@ -290,6 +290,7 @@ a {
   border-radius: 5px;
   font-family: "Roboto Condensed", Arial, sans-serif;
   letter-spacing: 0.05em;
+  font-weight: bold;
 }
 
 .more-info {
