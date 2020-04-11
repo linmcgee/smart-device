@@ -69,19 +69,20 @@ a {
   padding: 0;
   width: 100%;
   align-items: center;
-  justify-content: space-between;
+  padding-left: 550px;
 }
 
 .telephone {
   position: relative;  
-  width: 225px;
-  padding-left: 35px;
+  padding-left: 33px;
+  bottom: 5px;
 }
 
 .email {
   position: relative;
-  width: 245px;
-  padding-left: 35px;
+  padding-left: 39px;
+  bottom: 7px;
+  margin-right: 88px;
 }
 
 .telephone::before {
@@ -126,14 +127,28 @@ a {
   line-height: 94px;
   letter-spacing: 0.07em;
   text-transform: uppercase;
-  width: 710px;
+  width: 730px;
   margin: 0;
   padding-top: 225px;
 }
 
-.basic-info p {
-  width: 710px;
+.work {
+  width: 620px;
+  font-size: 22px;
+  line-height: 34px;
   margin-bottom: 40px;
+  padding-left: 94px;
+  position: relative;
+}
+
+.work::before {
+  content: "";
+  position: absolute;
+  background: url("../img/svg/Rectangle-header.svg");
+  width: 66px;
+  height: 2px;
+  top: 17px;
+  left: 0;
 }
 
 .call-button {
@@ -143,10 +158,10 @@ a {
   font-family: "Roboto Condensed", Arial, sans-serif;
   text-transform: uppercase;
   border: 1px solid #ffffff;
-  padding: 13px 25px;
+  padding: 16px 25px;
   border-radius: 5px;
   letter-spacing: 0.05em;
-  width: 180px;
+  width: 378px;
 }
 
 .scroll {
@@ -156,14 +171,13 @@ a {
 }
 
 .logo {
-  width: 753px;
   position: relative;
 }
 
 .logo::before {
   content: "";
   position: absolute;
-  bottom: 20px;
+  bottom: 23px;
   left: 320px;
   width: 37px;
   height: 13px;
