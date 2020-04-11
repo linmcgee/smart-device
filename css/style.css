@@ -267,7 +267,7 @@ a {
 }
 
 .about-company {
-  padding-bottom: 96px;
+  padding-bottom: 94px;
   margin-left: 345px;
   margin-right: 380px;
   display: flex;
@@ -319,7 +319,7 @@ a {
   line-height: 51px;
   color: #ffffff;
   margin: 0;
-  padding-bottom: 65px;
+  padding-bottom: 51px;
 }
 
 .text-company-last {
@@ -328,7 +328,7 @@ a {
 }
 
 .services {
-  padding: 93px 375px 127px 375px;
+  padding: 89px 375px 129px 375px;
 }
 
 .product-list {
@@ -381,7 +381,7 @@ a {
 }
 
 .questions {
-  background: url("../img/form-phone.png") no-repeat right #00B2FF;
+  background: url("../img/form-phone.png") no-repeat 175px -60px #00B2FF;
   color: #ffffff;
   min-height: 670px;
   position: relative;
@@ -399,7 +399,7 @@ a {
 .questions p {
   font-size: 16px;
   line-height: 22px;
-  margin-top: 15px;
+  margin-top: 12px;
   margin-bottom: 50px;
 }
 
@@ -410,7 +410,7 @@ a {
   position: absolute;
   right: 0%;
   margin-right: 375px;
-  top: 96px;
+  top: 90px;
 }
 
 .questions-form {
@@ -454,7 +454,8 @@ a {
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
-  padding: 14px 80px;
+  letter-spacing: 0.05em;
+  padding: 13px 80px;
 }
 
 .personal-data {
@@ -463,13 +464,16 @@ a {
   cursor: pointer;
   width: 230px;
   margin-top: 7px;
+  opacity: 0.8;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .questions-form input[type=checkbox]+label::before {
   background-image: url("../img/svg/checkbox-off.svg");
   content: "";
   position: absolute;
-  top: 7px;
+  top: 2px;
   left: 0;
   width: 16px;
   height: 16px;
@@ -479,7 +483,7 @@ a {
   background-image: url("../img/svg/checkbox-on.svg");
   content: "";
   position: absolute;
-  top: 7px;
+  top: 2px;
   left: 0;
   width: 16px;
   height: 16px;
