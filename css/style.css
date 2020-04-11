@@ -116,7 +116,7 @@ a {
   background-position: right 30px;
   margin-left: 249px;
   margin-right: 177px;
-  padding-bottom: 93px;
+  padding-bottom: 87px;
 }
 
 .basic-info h1 {
@@ -166,7 +166,7 @@ a {
 }
 
 .scroll {
-  margin: 93px 0 90px 0;
+  margin-top: 112px;
   transform: rotate(180deg);
   writing-mode: tb-rl;
   font-size: 14px;
@@ -198,14 +198,15 @@ a {
 .information {
   background-color: #ffffff;
   background-image: url("../img/polygons-content.png");
-  padding-top: 80px;
+  background-position: 0px -28px;
+  padding-top: 82px;
 }
 
 .advantages {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 110px;
-  width: 1260px;
+  width: 1230px;
   margin: 0 auto;
 }
 
@@ -214,7 +215,8 @@ a {
   min-height: 300px;
   box-sizing: border-box;
   padding: 40px 45px 50px 43px;
-  margin: 30px 30px;
+  margin-top: 30px;
+  margin-left: 30px;
   background-color: #ffffff;
   border-top: 1px solid #EBEBEB;
   border-bottom: 1px solid #EBEBEB;
@@ -228,6 +230,8 @@ a {
 
 .advantages-block p {
   width: 483px;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .advantages-block h3 {
@@ -236,6 +240,8 @@ a {
   font-weight: normal;
   font-size: 24px;
   line-height: 34px;
+  margin-top: 15px;
+  margin-bottom: 10px;
   color: #00B2FF;
 }
 
