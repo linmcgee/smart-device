@@ -75,13 +75,13 @@ a {
 .telephone {
   position: relative;  
   padding-left: 33px;
-  bottom: 5px;
+  bottom: 2px;
 }
 
 .email {
   position: relative;
   padding-left: 39px;
-  bottom: 7px;
+  bottom: 4px;
   margin-right: 88px;
 }
 
@@ -136,8 +136,9 @@ a {
   width: 620px;
   font-size: 22px;
   line-height: 34px;
-  margin-bottom: 40px;
-  padding-left: 94px;
+  margin-bottom: 61px;
+  margin-top: 29px;
+  padding-left: 98px;
   position: relative;
 }
 
@@ -148,7 +149,7 @@ a {
   width: 66px;
   height: 2px;
   top: 17px;
-  left: 0;
+  left: 4px;
 }
 
 .call-button {
@@ -168,6 +169,8 @@ a {
   margin: 93px 0 90px 0;
   transform: rotate(180deg);
   writing-mode: tb-rl;
+  font-size: 14px;
+  opacity: 0.5;
 }
 
 .logo {
@@ -273,12 +276,14 @@ a {
 }
 
 .free {
-  padding: 17px 45px;
+  margin-left: 97px;
+  padding: 18px 48px;
   font-size: 16px;
   text-transform: uppercase;
   background: #00B2FF;
   border-radius: 5px;
   font-family: "Roboto Condensed", Arial, sans-serif;
+  letter-spacing: 0.05em;
 }
 
 .more-info {
