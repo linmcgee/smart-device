@@ -167,6 +167,7 @@ a {
 
 .scroll {
   margin-top: 112px;
+  margin-left: 0px;
   transform: rotate(180deg);
   writing-mode: tb-rl;
   font-size: 14px;
@@ -260,8 +261,9 @@ a {
 }
 
 .text-company {
-  padding-bottom: 40px;
   line-height: 22px;
+  margin-left: -10px;
+  margin-top: -7px;
 }
 
 .about-company {
@@ -278,12 +280,12 @@ a {
   color: #666666;
   font-weight: normal;
   margin-top: 0;
-  margin-bottom: 35px;
+  margin-bottom: 23px;
 }
 
 .free {
   margin-left: 97px;
-  padding: 18px 48px;
+  padding: 18px 46px;
   font-size: 16px;
   text-transform: uppercase;
   background: #00B2FF;
@@ -300,9 +302,10 @@ a {
   line-height: 16px;
   text-transform: uppercase;
   color: #00B2FF;
-  padding: 15px 48px;
+  padding: 13px 50px;
   border: 1px solid #00B2FF;
   border-radius: 5px;
+  letter-spacing: 0.05em;
 }
 
 .product {
@@ -320,7 +323,8 @@ a {
 }
 
 .text-company-last {
-  margin-bottom: 43px;
+  margin-bottom: 50px;
+  margin-top: 21px;
 }
 
 .services {
