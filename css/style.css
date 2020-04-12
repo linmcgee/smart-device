@@ -73,7 +73,7 @@ a {
 }
 
 .telephone {
-  position: relative;  
+  position: relative;
   padding-left: 33px;
   bottom: 2px;
 }
@@ -162,7 +162,22 @@ a {
   padding: 16px 25px;
   border-radius: 5px;
   letter-spacing: 0.05em;
-  width: 378px;
+  width: 367px;
+  text-align: center;
+}
+
+.call-button:hover {
+  cursor: pointer;
+  background-color: #338ecc;
+  border: 1px solid #338ecc;
+  color: #FFFFFF;
+}
+
+.call-button:active {
+  cursor: pointer;
+  background-color: #1f567a;
+  border: 1px solid #1f567a;
+  color: #FFFFFF;
 }
 
 .scroll {
@@ -295,6 +310,16 @@ a {
   font-weight: bold;
 }
 
+.free:hover {
+  cursor: pointer;
+  background-color: #338ecc;
+}
+
+.free:active {
+  cursor: pointer;
+  background-color: #1f567a;
+}
+
 .more-info {
   font-family: "Roboto Condensed", Arial, sans-serif;
   font-weight: bold;
@@ -306,6 +331,19 @@ a {
   border: 1px solid #00B2FF;
   border-radius: 5px;
   letter-spacing: 0.05em;
+}
+
+.more-info:hover {
+  cursor: pointer;
+  background-color: #00B2FF;
+  color: #ffffff;
+}
+
+.more-info:active {
+  cursor: pointer;
+  background-color: #1f567a;
+  border: 1px solid #1f567a;
+  color: #ffffff;
 }
 
 .product {
@@ -432,6 +470,14 @@ a {
   padding: 16px 18px;
 }
 
+.questions-form input:hover {
+  background-color: #3dc5ff;
+}
+
+.questions-form input:focus {
+  background-color: #1bb5f7;
+}
+
 .questions-form textarea {
   background-color: #19baff;
   border: none;
@@ -442,6 +488,15 @@ a {
   height: 154px;
   margin-top: 40px;
   margin-bottom: 43px;
+  resize: none;
+}
+
+.questions-form textarea:hover {
+  background-color: #3dc5ff;
+}
+
+.questions-form textarea:focus {
+  background-color: #1bb5f7;
 }
 
 .send-question {
@@ -456,6 +511,17 @@ a {
   line-height: 16px;
   letter-spacing: 0.05em;
   padding: 13px 80px;
+}
+
+.send-question:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #00B2FF;
+}
+
+.send-question:active {
+  background-color: #daefff;
+  border: 1px solid #daefff;
 }
 
 .personal-data {
