@@ -309,6 +309,8 @@ a {
   letter-spacing: 0.05em;
   font-weight: bold;
   display: block;
+  width: 407px;
+  text-align: center;
 }
 
 .free:hover {
@@ -381,7 +383,18 @@ a {
 
 .product-list li {
   min-width: 370px;
+  position: relative;
 }
+
+.product-list a::before {
+  position: absolute; 
+  background-image: url("../img/svg/hired.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #19baff;
+  padding: 10px;
+}
+
 
 .product-list li:nth-child(2) {
   margin: 0 30px;
