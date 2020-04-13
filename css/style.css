@@ -406,7 +406,6 @@ a {
   padding-left: 30px;
 }
 
-
 .product-list li:nth-child(2) {
   margin: 0 30px;
 }
@@ -482,7 +481,7 @@ a {
   justify-content: space-between;
 }
 
-.questions-form input {
+.questions-input {
   background-color: #19baff;
   border: none;
   color: #FFFFFF;
@@ -495,32 +494,35 @@ a {
   padding: 16px 18px;
 }
 
-.questions-form input:hover {
+.questions-input:hover {
   background-color: #3dc5ff;
 }
 
-.questions-form input:focus {
+.questions-input:focus {
   background-color: #1bb5f7;
 }
 
-.questions-form textarea {
+.question-area-paper {
+  width: 570px;
+  height: 154px;
+  margin-top: 40px;
+  margin-bottom: 43px;
+}
+
+.question-area {
   background-color: #19baff;
   border: none;
   color: #FFFFFF;
   box-sizing: border-box;
   padding: 13px 16px;
-  width: 570px;
-  height: 154px;
-  margin-top: 40px;
-  margin-bottom: 43px;
   resize: none;
 }
 
-.questions-form textarea:hover {
+.question-area:hover {
   background-color: #3dc5ff;
 }
 
-.questions-form textarea:focus {
+.question-area:focus {
   background-color: #1bb5f7;
 }
 
@@ -535,7 +537,12 @@ a {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.05em;
+  display: block;
+}
+
+.send-question-paper {
   padding: 13px 80px;
+  max-width: 270px;
 }
 
 .send-question:hover {
@@ -553,14 +560,17 @@ a {
   padding-left: 32px;
   position: relative;
   cursor: pointer;
-  width: 230px;
-  margin-top: 7px;
   opacity: 0.8;
   font-size: 14px;
   line-height: 16px;
 }
 
-.questions-form input[type=checkbox]+label::before {
+.personal-data-paper {
+  width: 230px;
+  margin-top: 7px;
+}
+
+.questions-form input[type=checkbox]+label::before, .popup-form input[type=checkbox]+label::before {
   background-image: url("../img/svg/checkbox-off.svg");
   content: "";
   position: absolute;
@@ -570,7 +580,7 @@ a {
   height: 16px;
 }
 
-.questions-form input[type=checkbox]:checked+label::before {
+.questions-form input[type=checkbox]:checked+label::before, .popup-form input[type=checkbox]:checked+label::before {
   background-image: url("../img/svg/checkbox-on.svg");
   content: "";
   position: absolute;
@@ -678,4 +688,106 @@ a {
 .contacts p {
   color: rgba(27, 45, 55, 0.5);
   margin: 0;
+}
+
+.popup {
+  background: #00B2FF;
+  color: #ffffff;
+  width: 490px;
+  box-sizing: border-box;
+  padding: 33px 40px 36px 39px;
+  display: none;
+}
+
+.popup-pos {
+  top: 120px;
+  left: 50%;
+
+  width: 300px;
+  margin-left: -230px;
+  padding: 50px 80px;
+}
+
+.popup-close {
+  position: absolute;
+  top: 0;
+  right: -34px;
+
+  width: 22px;
+  height: 22px;
+
+  font-size: 0;
+
+  background-color: transparent;
+  border: 0;
+
+  cursor: pointer;
+}
+
+.popup-close::before,
+.popup-close::after {
+  content: "";
+
+  position: absolute;
+  top: 10px;
+  left: 2px;
+
+  width: 19px;
+  height: 3px;
+
+  background-color: #d0d0d0;
+}
+
+.popup-close::before {
+  transform: rotate(45deg);
+}
+
+.popup-close::after {
+  transform: rotate(-45deg);
+}
+
+.popup-visible {
+  display: block;
+}
+
+.popup h2 {
+  font-family: "Roboto Condensed", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.popup-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.questions-input-popup {
+  padding: 15px 0 23px 24px;
+  width: 412px;
+  height: 52px;
+  margin-bottom: 30px;
+}
+
+.question-area-popup {
+  width: 411px;
+  height: 104px;
+  margin-bottom: 30px;
+}
+
+.send-question-popup {
+  padding: 12px 166px 22px 166px;
+  max-width: 412px;
+  margin-bottom: 34px;
+}
+
+.consultation {
+  width: 383px;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.personal-data-popup {
+  width: 325px;
 }
