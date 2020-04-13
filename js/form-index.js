@@ -1,4 +1,4 @@
-var form = document.querySelector(".popup");
+var popup = document.querySelector(".popup");
 var call = document.querySelector(".call-button");
 
 var close = popup.querySelector(".popup-close");

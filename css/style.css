@@ -542,7 +542,7 @@ a {
 
 .send-question-paper {
   padding: 13px 80px;
-  max-width: 270px;
+  max-width: 280px;
 }
 
 .send-question:hover {
@@ -702,10 +702,7 @@ a {
 .popup-pos {
   top: 120px;
   left: 50%;
-
-  width: 300px;
   margin-left: -230px;
-  padding: 50px 80px;
 }
 
 .popup-close {
