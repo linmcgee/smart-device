@@ -200,7 +200,7 @@ a {
 .logo::before {
   content: "";
   position: absolute;
-  bottom: 23px;
+  bottom: 25px;
   left: 320px;
   width: 37px;
   height: 13px;
@@ -410,6 +410,13 @@ a {
   padding-left: 30px;
 }
 
+.product-list a::before:hover {
+  background-color: #00B2FF;
+}
+
+.product-list a::before:active {
+  background-color: #1f567a;
+}
 .product-list li:nth-child(2) {
   margin: 0 30px;
 }
@@ -627,7 +634,7 @@ a {
 }
 
 .social-block {
-  margin-bottom: 65px;
+  margin-bottom: 58px;
 }
 
 .social-networks {
@@ -636,12 +643,16 @@ a {
   width: 112px;
 }
 
+.social-networks a:hover {
+  cursor: pointer;
+}
+
 .copyright {
   border-top: 1px solid rgba(98, 105, 98, 0.2);
   text-transform: uppercase;
   font-size: 13px;
   line-height: 24px;
-  padding: 0 253px 0 255px;
+  padding: 0 253px 0 253px;
 }
 
 .copyright ul {
@@ -649,8 +660,9 @@ a {
 }
 
 .copyright li {
-  padding-top: 22px;
-  padding-bottom: 22px;
+  padding-top: 14px;
+  padding-bottom: 13px;
+  letter-spacing: 0.04em;
 }
 
 .copyright li:nth-child(1) {
@@ -673,14 +685,14 @@ a {
   font-weight: normal;
   color: #1B2D37;
   margin-top: 65px;
-  margin-bottom: 30px;
+  margin-bottom: 26px;
   letter-spacing: 0.05em;
 }
 
 .site-map {
   font-size: 15px;
   line-height: 25px;
-  max-width: 658px;
+  max-width: 655px;
 }
 
 .site-map ul {
@@ -700,13 +712,10 @@ a {
   color: black;
 }
 
-.contacts {
-  padding-left: 140px;
-}
-
 .contacts p {
   color: rgba(27, 45, 55, 0.5);
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 2px;
 }
 
 .popup {
