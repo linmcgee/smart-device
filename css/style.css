@@ -691,7 +691,7 @@ a {
   width: 243px;
 }
 
-.site-map a {
+.site-map a:hover {
   cursor: pointer;
   color: black;
 }
