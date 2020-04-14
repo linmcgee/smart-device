@@ -750,7 +750,7 @@ a {
   color: #ffffff;
   width: 490px;
   box-sizing: border-box;
-  padding: 33px 40px 36px 39px;
+  padding: 38px 40px 38px 39px;
   display: none;
 }
 
@@ -770,7 +770,7 @@ a {
   font-weight: normal;
   font-size: 28px;
   margin-top: 0;
-  margin-bottom: 24px;
+  margin-bottom: 21px;
 }
 
 .popup-form {
@@ -789,22 +789,24 @@ a {
   width: 411px;
   height: 104px;
   margin-bottom: 30px;
+  padding: 12px 25px;
 }
 
 .send-question-popup {
-  padding: 12px 166px 22px 166px;
+  padding: 12px 166px 17px 166px;
   max-width: 412px;
-  margin-bottom: 34px;
+  margin-bottom: 32px;
 }
 
 .consultation {
   width: 383px;
   margin-top: 0;
-  margin-bottom: 35px;
+  margin-bottom: 33px;
 }
 
 .personal-data-popup {
   width: 325px;
+  padding-left: 49px;
 }
 
 .close {
