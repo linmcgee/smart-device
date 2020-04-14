@@ -612,6 +612,15 @@ a {
   height: 16px;
 }
 
+.questions-form input[type="checkbox"]:hover+label::before, .popup-form input[type="checkbox"]:hover+label::before {
+  cursor: pointer;
+}
+
+
+.questions-form input[type="checkbox"]:focus+label::before, .popup-form input[type="checkbox"]:focus+label::before {
+  outline: auto 2px #4D90FE;
+}
+
 .questions-form input[type=checkbox]:checked+label::before, .popup-form input[type=checkbox]:checked+label::before {
   background-image: url("../img/svg/checkbox-on.svg");
   content: "";
@@ -749,7 +758,8 @@ a {
 .popup-pos {
   top: 120px;
   left: 50%;
-  margin-left: -230px;
+  margin-left: -235px;
+  position: absolute;
 }
 
 .popup-close {
