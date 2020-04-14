@@ -442,6 +442,7 @@ a {
 }
 
 .boards-production {
+  background: rgb(9, 15, 19);
   background: url("../img/w1.png") no-repeat center;
   position: absolute;
 }
@@ -452,6 +453,7 @@ a {
 }
 
 .boards-installation {
+  background: rgb(9, 15, 19);
   background: url("../img/w2.png") no-repeat center;
   position: absolute;
 }
@@ -462,6 +464,7 @@ a {
 }
 
 .lighting-equipment {
+  background: rgb(9, 15, 19);
   background: url("../img/w3.png") no-repeat center;
   position: absolute;
 }
