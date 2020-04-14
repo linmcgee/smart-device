@@ -113,10 +113,10 @@ a {
   color: #ffffff;
   background-image: url("../img/boards.png");
   background-repeat: no-repeat;
-  background-position: right 30px;
+  background-position: right 27px;
   margin-left: 249px;
   margin-right: 177px;
-  padding-bottom: 86px;
+  padding-bottom: 89px;
 }
 
 .basic-info h1 {
@@ -164,10 +164,12 @@ a {
   margin-top: 3px;
   margin-right: 0px;
   letter-spacing: 0.05em;
-  width: 367px;
+  width: 430px;
   text-align: center;
   display: block;
   align-self: flex-start;
+  background: transparent;
+  color: #fff;
 }
 
 .call-button:hover {
@@ -185,7 +187,7 @@ a {
 }
 
 .scroll {
-  margin-top: 95px;
+  margin-top: 92px;
   margin-left: 0px;
   transform: rotate(180deg);
   writing-mode: tb-rl;
@@ -286,7 +288,7 @@ a {
 .text-company {
   line-height: 22px;
   margin-left: -10px;
-  margin-top: -7px;
+  margin-top: -5px;
 }
 
 .about-company {
@@ -303,7 +305,7 @@ a {
   color: #666666;
   font-weight: normal;
   margin-top: 0;
-  margin-bottom: 23px;
+  margin-bottom: 20px;
 }
 
 .free {
@@ -417,6 +419,7 @@ a {
 .product-list a:active::before {
   background-color: #1f567a;
 }
+
 .product-list li:nth-child(2) {
   margin: 0 30px;
 }
@@ -438,7 +441,6 @@ a {
   min-height: 620px;
 }
 
-
 .boards-production {
   background: url("../img/w1.png") no-repeat center;
   position: absolute;
@@ -446,7 +448,7 @@ a {
 
 .boards-production:hover {
   background: url("../img/w1.png") no-repeat center;
-  background-color: rgba(1,1,1,0.3);
+  background-color: rgba(1, 1, 1, 0.3);
 }
 
 .boards-installation {
@@ -456,7 +458,7 @@ a {
 
 .boards-installation:hover {
   background: url("../img/w2.png") no-repeat center;
-  background-color: rgba(1,1,1,0.3);
+  background-color: rgba(1, 1, 1, 0.3);
 }
 
 .lighting-equipment {
@@ -466,7 +468,7 @@ a {
 
 .lighting-equipment:hover {
   background: url("../img/w3.png") no-repeat center;
-  background-color: rgba(1,1,1,0.3);
+  background-color: rgba(1, 1, 1, 0.3);
 }
 
 .questions {
@@ -751,29 +753,21 @@ a {
   position: absolute;
   top: 0;
   right: -34px;
-
   width: 22px;
   height: 22px;
-
   font-size: 0;
-
   background-color: transparent;
   border: 0;
-
   cursor: pointer;
 }
 
-.popup-close::before,
-.popup-close::after {
+.popup-close::before, .popup-close::after {
   content: "";
-
   position: absolute;
   top: 10px;
   left: 2px;
-
   width: 19px;
   height: 3px;
-
   background-color: #d0d0d0;
 }
 
