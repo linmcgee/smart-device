@@ -616,7 +616,6 @@ a {
   cursor: pointer;
 }
 
-
 .questions-form input[type="checkbox"]:focus+label::before, .popup-form input[type="checkbox"]:focus+label::before {
   outline: auto 2px #4D90FE;
 }
@@ -762,36 +761,6 @@ a {
   position: absolute;
 }
 
-.popup-close {
-  position: absolute;
-  top: 0;
-  right: -34px;
-  width: 22px;
-  height: 22px;
-  font-size: 0;
-  background-color: transparent;
-  border: 0;
-  cursor: pointer;
-}
-
-.popup-close::before, .popup-close::after {
-  content: "";
-  position: absolute;
-  top: 10px;
-  left: 2px;
-  width: 19px;
-  height: 3px;
-  background-color: #d0d0d0;
-}
-
-.popup-close::before {
-  transform: rotate(45deg);
-}
-
-.popup-close::after {
-  transform: rotate(-45deg);
-}
-
 .popup-visible {
   display: block;
 }
@@ -836,4 +805,18 @@ a {
 
 .personal-data-popup {
   width: 325px;
+}
+
+.close {
+  background: url(../img/svg/close.svg) no-repeat;
+  width: 17px;
+  height: 17px;
+  border: none;
+  position: absolute;
+  top: 20px;
+  left: 93%;
+}
+
+.close:hover {
+  cursor: pointer;
 }
