@@ -779,7 +779,7 @@ a {
 }
 
 .questions-input-popup {
-  padding: 15px 0 23px 24px;
+  padding: 16px 0 23px 24px;
   width: 412px;
   height: 52px;
   margin-bottom: 30px;
@@ -789,11 +789,11 @@ a {
   width: 411px;
   height: 104px;
   margin-bottom: 30px;
-  padding: 12px 25px;
+  padding: 13px 25px;
 }
 
 .send-question-popup {
-  padding: 12px 166px 17px 166px;
+  padding: 12px 166px 18px 166px;
   max-width: 412px;
   margin-bottom: 32px;
 }
@@ -801,7 +801,7 @@ a {
 .consultation {
   width: 383px;
   margin-top: 0;
-  margin-bottom: 33px;
+  margin-bottom: 32px;
 }
 
 .personal-data-popup {
