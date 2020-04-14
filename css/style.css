@@ -617,11 +617,12 @@ a {
 }
 
 .footer-logo {
-  padding: 65px 210px 50px 0;
+  padding: 65px 208px 54px 0;
+  display: block;
 }
 
 .information-footer {
-  margin: 0 253px 0 255px;
+  margin-left: 252px;
   display: flex;
 }
 
@@ -673,11 +674,13 @@ a {
   color: #1B2D37;
   margin-top: 65px;
   margin-bottom: 30px;
+  letter-spacing: 0.05em;
 }
 
 .site-map {
   font-size: 15px;
   line-height: 25px;
+  max-width: 658px;
 }
 
 .site-map ul {
@@ -689,6 +692,7 @@ a {
 
 .site-map li {
   width: 243px;
+  margin-right: 65px;
 }
 
 .site-map a:hover {
