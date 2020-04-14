@@ -410,11 +410,11 @@ a {
   padding-left: 30px;
 }
 
-.product-list a::before:hover {
-  background-color: #00B2FF;
+.product-list a:hover::before {
+  background-color: rgb(4, 162, 230);
 }
 
-.product-list a::before:active {
+.product-list a:active::before {
   background-color: #1f567a;
 }
 .product-list li:nth-child(2) {
@@ -438,9 +438,15 @@ a {
   min-height: 620px;
 }
 
+
 .boards-production {
   background: url("../img/w1.png") no-repeat center;
   position: absolute;
+}
+
+.boards-production:hover {
+  background: url("../img/w1.png") no-repeat center;
+  background-color: rgba(1,1,1,0.3);
 }
 
 .boards-installation {
@@ -448,9 +454,19 @@ a {
   position: absolute;
 }
 
+.boards-installation:hover {
+  background: url("../img/w2.png") no-repeat center;
+  background-color: rgba(1,1,1,0.3);
+}
+
 .lighting-equipment {
   background: url("../img/w3.png") no-repeat center;
   position: absolute;
+}
+
+.lighting-equipment:hover {
+  background: url("../img/w3.png") no-repeat center;
+  background-color: rgba(1,1,1,0.3);
 }
 
 .questions {
@@ -602,8 +618,6 @@ a {
 }
 
 .footer {
-  /* display: flex;
-    flex-wrap: wrap; */
   background: #FAFAFA;
 }
 
@@ -707,7 +721,7 @@ a {
   margin-right: 65px;
 }
 
-.site-map a:hover {
+.footer a:hover {
   cursor: pointer;
   color: black;
 }
