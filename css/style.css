@@ -166,7 +166,7 @@ a {
   letter-spacing: 0.05em;
   width: 430px;
   text-align: center;
-  display: block;
+  display: inline-block;
   align-self: flex-start;
   background: transparent;
   color: #fff;
@@ -318,7 +318,7 @@ a {
   font-family: "Roboto Condensed", Arial, sans-serif;
   letter-spacing: 0.05em;
   font-weight: bold;
-  display: block;
+  display: inline-block;
   width: 317px;
   text-align: center;
 }
@@ -344,6 +344,7 @@ a {
   border: 1px solid #00B2FF;
   border-radius: 5px;
   letter-spacing: 0.05em;
+  display: inline-block;
 }
 
 .more-info:hover {
@@ -434,6 +435,7 @@ a {
   position: relative;
   top: 50px;
   left: 44px;
+  font-weight: normal;
 }
 
 .product-list a {
@@ -444,6 +446,7 @@ a {
 .boards-production {
   background: rgb(9, 15, 19);
   background: url("../img/w1.png") no-repeat center;
+  background-size: cover;
   position: absolute;
 }
 
@@ -455,6 +458,7 @@ a {
 .boards-installation {
   background: rgb(9, 15, 19);
   background: url("../img/w2.png") no-repeat center;
+  background-size: cover;
   position: absolute;
 }
 
@@ -466,6 +470,7 @@ a {
 .lighting-equipment {
   background: rgb(9, 15, 19);
   background: url("../img/w3.png") no-repeat center;
+  background-size: cover;
   position: absolute;
 }
 
@@ -569,7 +574,7 @@ a {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.05em;
-  display: block;
+  display: inline-block;
 }
 
 .send-question-paper {
@@ -668,6 +673,7 @@ a {
   display: flex;
   justify-content: space-between;
   width: 112px;
+  flex-wrap: wrap;
 }
 
 .social-networks a:hover {
