@@ -69,7 +69,7 @@ a {
   padding: 0;
   width: 100%;
   align-items: center;
-  padding-left: 550px;
+  padding-left: 390px;
   line-height: 18px;
 }
 
@@ -208,11 +208,13 @@ a {
 }
 
 .menu {
-  width: 37px;
+  width: 112px;
   height: 13px;
   background-color: transparent;
-  background: url("../img/svg/two-rect.svg") no-repeat center;
+  background: url(../img/svg/two-rect.svg) no-repeat center;
   border: none;
+  margin-top: 20px;
+  margin-left: 113px;
 }
 
 .menu:hover {
