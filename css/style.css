@@ -709,10 +709,12 @@ a {
   letter-spacing: 0.04em;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .copyright ul {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .copyright li {
@@ -721,15 +723,15 @@ a {
   letter-spacing: 0.04em;
 }
 
-.copyright li:nth-child(1) {
+.rights {
   margin-right: 76px;
 }
 
-.copyright li:nth-child(2) {
+.site {
   margin-right: 142px;
 }
 
-.copyright li:nth-child(3) {
+.conf {
   margin-right: 405px;
 }
 
