@@ -140,7 +140,7 @@ a {
   width: 620px;
   font-size: 22px;
   line-height: 34px;
-  margin-bottom: 43px;
+  margin-bottom: 45px;
   margin-top: 26px;
   padding-left: 98px;
   position: relative;
@@ -191,7 +191,7 @@ a {
 }
 
 .scroll {
-  margin-top: 92px;
+  margin-top: 94px;
   margin-left: 0px;
   transform: rotate(180deg);
   writing-mode: tb-rl;
@@ -239,7 +239,7 @@ a {
 .advantages {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 107px;
+  padding-bottom: 109px;
   width: 1230px;
   margin: 0 auto;
 }
@@ -280,7 +280,11 @@ a {
 }
 
 .advantages-block-price h3 {
-  margin-top: 11px;
+  margin-top: 13px;
+}
+
+.advantages-block-personal-conf h3 {
+  margin-top: 18px;
 }
 
 .advantages-block:hover {
@@ -304,7 +308,7 @@ a {
 }
 
 .about-company {
-  padding-bottom: 96px;
+  padding-bottom: 95px;
   margin-left: 345px;
   margin-right: 380px;
   display: flex;
@@ -321,8 +325,8 @@ a {
 }
 
 .free {
-  margin-left: 97px;
-  padding: 18px 46px;
+  margin-left: 98px;
+  padding: 17px 45px;
   font-size: 16px;
   text-transform: uppercase;
   background: #00B2FF;
@@ -387,12 +391,12 @@ a {
 }
 
 .text-company-last {
-  margin-bottom: 50px;
+  margin-bottom: 42px;
   margin-top: 21px;
 }
 
 .services {
-  padding: 89px 375px 127px 375px;
+  padding: 90px 375px 127px 375px;
 }
 
 .product-list {
@@ -416,7 +420,7 @@ a {
   background-position: 55%;
   background-repeat: no-repeat;
   background-color: #19baff;
-  top: 557px;
+  top: 558px;
   left: 307px;
   cursor: pointer;
   padding-top: 30px;
@@ -445,7 +449,7 @@ a {
   line-height: 30px;
   margin: 0;
   position: relative;
-  top: 50px;
+  top: 52px;
   left: 44px;
   font-weight: normal;
 }
@@ -521,7 +525,7 @@ a {
   position: absolute;
   right: 0%;
   margin-right: 375px;
-  top: 90px;
+  top: 92px;
 }
 
 .questions-form {
@@ -702,7 +706,10 @@ a {
   text-transform: uppercase;
   font-size: 13px;
   line-height: 24px;
-  padding: 0 253px 0 253px;
+  padding: 0 222px 0 251px;
+  letter-spacing: 0.04em;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .copyright ul {
@@ -716,7 +723,7 @@ a {
 }
 
 .copyright li:nth-child(1) {
-  margin-right: 75px;
+  margin-right: 76px;
 }
 
 .copyright li:nth-child(2) {
@@ -724,7 +731,7 @@ a {
 }
 
 .copyright li:nth-child(3) {
-  margin-right: 405px;
+  margin-right: 370px;
 }
 
 .footer h4 {
