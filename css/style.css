@@ -73,6 +73,10 @@ a {
   line-height: 18px;
 }
 
+.navigation-list a:hover {
+  color:#1bb5f7;
+}
+
 .telephone {
   position: relative;
   padding-left: 33px;
@@ -195,18 +199,24 @@ a {
   opacity: 0.5;
 }
 
+.scroll a:hover {
+  color:#1bb5f7;
+}
+
 .logo {
   position: relative;
 }
 
-.logo::before {
-  content: "";
-  position: absolute;
-  bottom: 25px;
-  left: 320px;
+.menu {
   width: 37px;
   height: 13px;
+  background-color: transparent;
   background: url("../img/svg/two-rect.svg") no-repeat center;
+  border: none;
+}
+
+.menu:hover {
+  cursor: pointer;
 }
 
 .visually-hidden {
@@ -676,8 +686,13 @@ a {
   flex-wrap: wrap;
 }
 
-.social-networks a:hover {
+.social-networks svg {
+  fill:#CDCDCD;
+}
+
+.social-networks svg:hover {
   cursor: pointer;
+  fill:#1bb5f7;
 }
 
 .copyright {
