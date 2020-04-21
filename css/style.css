@@ -120,7 +120,7 @@ a {
   background-position: right 27px;
   margin-left: 249px;
   margin-right: 177px;
-  padding-bottom: 89px;
+  padding-bottom: 88px;
 }
 
 .basic-info h1 {
@@ -141,7 +141,7 @@ a {
   font-size: 22px;
   line-height: 34px;
   margin-bottom: 45px;
-  margin-top: 26px;
+  margin-top: 27px;
   padding-left: 98px;
   position: relative;
 }
@@ -397,7 +397,7 @@ a {
 }
 
 .services {
-  padding: 90px 375px 127px 375px;
+  padding: 90px 375px 128px 375px;
 }
 
 .product-list {
@@ -424,7 +424,7 @@ a {
   top: 558px;
   left: 307px;
   cursor: pointer;
-  padding-top: 30px;
+  padding-top: 29px;
   padding-right: 33px;
   padding-bottom: 33px;
   padding-left: 30px;
@@ -495,7 +495,7 @@ a {
 }
 
 .questions {
-  background: url("../img/form-phone.png") no-repeat 175px -60px #00B2FF;
+  background: url("../img/form-phone.png") no-repeat 175px -61px #00B2FF;
   color: #ffffff;
   min-height: 670px;
   position: relative;
@@ -678,7 +678,7 @@ a {
 }
 
 .footer-logo {
-  padding: 65px 208px 54px 0;
+  padding: 64px 207px 54px 0;
   display: block;
 }
 
@@ -688,7 +688,7 @@ a {
 }
 
 .social-block {
-  margin-bottom: 58px;
+  margin-bottom: 59px;
 }
 
 .social-networks {
@@ -750,7 +750,7 @@ a {
   font-weight: normal;
   color: #1B2D37;
   margin-top: 65px;
-  margin-bottom: 26px;
+  margin-bottom: 24px;
   letter-spacing: 0.05em;
 }
 
