@@ -397,12 +397,15 @@ a {
 }
 
 .services {
-  padding: 90px 375px 128px 375px;
+  margin: 0 375px 0 375px;
+  padding-bottom: 98px;
+  padding-top: 90px;
 }
 
 .product-list {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   width: 1200px;
   min-height: 620px;
   margin: 0;
@@ -412,6 +415,8 @@ a {
 .product-list li {
   min-width: 370px;
   position: relative;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .product-list a::before {
@@ -436,10 +441,6 @@ a {
 
 .product-list a:active::before {
   background-color: #1f567a;
-}
-
-.product-list li:nth-child(2) {
-  margin: 0 30px;
 }
 
 .product-list h3 {
