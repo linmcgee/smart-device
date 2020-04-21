@@ -219,6 +219,7 @@ a {
 
 .menu:hover {
   cursor: pointer;
+  background: url(../img/svg/two-rect-hover.svg) no-repeat center;
 }
 
 .visually-hidden {
@@ -416,7 +417,7 @@ a {
 .product-list a::before {
   content: "";
   position: absolute;
-  background-image: url(../img/svg/vect-block.svg);
+  background-image: url("../img/svg/vect-block.svg");
   background-position: 55%;
   background-repeat: no-repeat;
   background-color: #19baff;
@@ -632,6 +633,8 @@ a {
 }
 
 .questions-form input[type="checkbox"]:hover+label::before, .popup-form input[type="checkbox"]:hover+label::before {
+  background-image: url("../img/svg/checkbox-off-hover.svg");
+  content: "";
   cursor: pointer;
 }
 
@@ -647,6 +650,12 @@ a {
   left: 0;
   width: 16px;
   height: 16px;
+}
+
+.questions-form input[type=checkbox]:checked:hover+label::before, .popup-form input[type=checkbox]:checked:hover+label::before {
+  background-image: url("../img/svg/checkbox-on-hover.svg");
+  content: "";
+  cursor: pointer;
 }
 
 .footer {
@@ -843,7 +852,7 @@ a {
 }
 
 .close {
-  background: url(../img/svg/close.svg) no-repeat;
+  background: url("../img/svg/close.svg") no-repeat;
   width: 17px;
   height: 17px;
   border: none;
@@ -853,5 +862,6 @@ a {
 }
 
 .close:hover {
+  background: url("../img/svg/close-hover.svg") no-repeat;;
   cursor: pointer;
 }
