@@ -457,13 +457,13 @@ a {
 .product-list a {
   min-width: 370px;
   min-height: 620px;
+  display: block;
 }
 
 .boards-production {
   background: rgb(9, 15, 19);
   background: url("../img/w1.png") no-repeat center;
   background-size: cover;
-  position: absolute;
 }
 
 .boards-production:hover {
@@ -475,7 +475,6 @@ a {
   background: rgb(9, 15, 19);
   background: url("../img/w2.png") no-repeat center;
   background-size: cover;
-  position: absolute;
 }
 
 .boards-installation:hover {
@@ -487,7 +486,6 @@ a {
   background: rgb(9, 15, 19);
   background: url("../img/w3.png") no-repeat center;
   background-size: cover;
-  position: absolute;
 }
 
 .lighting-equipment:hover {
