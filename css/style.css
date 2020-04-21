@@ -450,8 +450,8 @@ a {
   line-height: 30px;
   margin: 0;
   position: relative;
-  top: 52px;
-  left: 44px;
+  padding-top: 52px;
+  padding-left: 44px;
   font-weight: normal;
 }
 
