@@ -793,14 +793,14 @@ a {
   color: #ffffff;
   width: 490px;
   box-sizing: border-box;
-  padding: 38px 40px 38px 39px;
+  padding: 39px 40px 38px 40px;
   display: none;
 }
 
 .popup-pos {
   top: 136px;
   left: 50%;
-  margin-left: -235px;
+  margin-left: -246px;
   position: absolute;
 }
 
@@ -844,7 +844,7 @@ a {
 .consultation {
   width: 383px;
   margin-top: 0;
-  margin-bottom: 32px;
+  margin-bottom: 33px;
 }
 
 .personal-data-popup {
