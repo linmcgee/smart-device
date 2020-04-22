@@ -115,6 +115,7 @@ a {
 
 .basic-info {
   color: #ffffff;
+  background-size: auto 655px;
   background-image: url("../img/boards.png");
   background-repeat: no-repeat;
   background-position: right 27px;
@@ -426,7 +427,7 @@ a {
   background-position: 55%;
   background-repeat: no-repeat;
   background-color: #19baff;
-  top: 558px;
+  bottom: 0;
   left: 307px;
   cursor: pointer;
   padding-top: 29px;
@@ -470,6 +471,7 @@ a {
 
 .boards-production:hover {
   background: url("../img/w1.png") no-repeat center;
+  background-size: cover;
   background-color: rgba(1, 1, 1, 0.3);
 }
 
@@ -481,6 +483,7 @@ a {
 
 .boards-installation:hover {
   background: url("../img/w2.png") no-repeat center;
+  background-size: cover;
   background-color: rgba(1, 1, 1, 0.3);
 }
 
@@ -491,7 +494,8 @@ a {
 }
 
 .lighting-equipment:hover {
-  background: url("../img/w3.png") no-repeat center;
+  background: url("../img/w3.png") no-repeat center; 
+  background-size: cover;
   background-color: rgba(1, 1, 1, 0.3);
 }
 
