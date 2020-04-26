@@ -130,6 +130,7 @@ a {
   margin-right: 177px;
   padding-bottom: 88px;
   position: relative;
+  min-height: 700px;
 }
 
 .basic-info h1 {
@@ -201,8 +202,8 @@ a {
 }
 
 .scroll {
-  margin-top: 94px;
-  margin-left: 0px;
+  margin-top: 183px;
+  margin-left: -35px;
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
@@ -322,13 +323,13 @@ a {
 
 .text-company {
   line-height: 22px;
-  margin-left: 190px;
+  margin-left: 210px;
   margin-top: -5px;
 }
 
 .about-company {
   background: url("../img/2005.png") no-repeat left top;
-  padding-bottom: 95px;
+  padding-bottom: 110px;
   margin-left: 345px;
   margin-right: 380px;
   display: -webkit-box;
