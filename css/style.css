@@ -489,39 +489,30 @@ a {
 }
 
 .boards-production {
-  background: rgb(9, 15, 19);
-  background: url("../img/w1.png") no-repeat center;
+  background: url("../img/w1.jpg") #276996 no-repeat center;
   background-size: cover;
 }
 
 .boards-production:hover {
-  background: url("../img/w1.png") no-repeat center;
-  background-size: cover;
-  background-color: rgba(1, 1, 1, 0.3);
+  filter: brightness(85%);
 }
 
 .boards-installation {
-  background: rgb(9, 15, 19);
-  background: url("../img/w2.png") no-repeat center;
+  background: url("../img/w2.jpg") #276996 no-repeat center;
   background-size: cover;
 }
 
 .boards-installation:hover {
-  background: url("../img/w2.png") no-repeat center;
-  background-size: cover;
-  background-color: rgba(1, 1, 1, 0.3);
+  filter: brightness(85%);
 }
 
 .lighting-equipment {
-  background: rgb(9, 15, 19);
-  background: url("../img/w3.png") no-repeat center;
+  background: url("../img/w3.jpg") #276996 no-repeat center;
   background-size: cover;
 }
 
 .lighting-equipment:hover {
-  background: url("../img/w3.png") no-repeat center;
-  background-size: cover;
-  background-color: rgba(1, 1, 1, 0.3);
+  filter: brightness(85%);
 }
 
 .questions {
