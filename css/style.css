@@ -919,3 +919,8 @@ a {
   background: url("../img/svg/close-hover.svg") no-repeat;
   cursor: pointer;
 }
+
+.checkbox-popup {
+  top: 92%;
+  left: 10%;
+}
