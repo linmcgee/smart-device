@@ -582,6 +582,7 @@ a {
 
 .questions-input:focus {
   background-color: #1bb5f7;
+  border: solid 1px #4D90FE;
 }
 
 .question-area-paper {
@@ -607,6 +608,7 @@ a {
 
 .question-area:focus {
   background-color: #1bb5f7;
+  border: solid 1px #4D90FE;
 }
 
 .send-question {
@@ -691,14 +693,17 @@ a {
 
 ::-webkit-input-placeholder {
   color: #FFFFFF;
+  opacity: 1;
 }
 
 ::-moz-placeholder {
   color: #FFFFFF;
+  opacity: 1;
 }
 
 :-ms-input-placeholder {
   color: #FFFFFF;
+  opacity: 1;
 }
 
 :focus::-webkit-input-placeholder {
@@ -715,10 +720,12 @@ a {
 
 ::-moz-placeholder {
   color: #FFFFFF;
+  opacity: 1;
 }
 
 :-ms-input-placeholder {
   color: #FFFFFF;
+  opacity: 1;
 }
 
 :focus::-webkit-input-placeholder {
@@ -732,6 +739,7 @@ a {
 :focus:-ms-input-placeholder {
   opacity: 0;
 }
+
 
 .footer {
   background: #FAFAFA;
