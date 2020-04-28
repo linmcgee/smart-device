@@ -689,27 +689,27 @@ a {
   cursor: pointer;
 }
 
-input::-webkit-input-placeholder {
+::-webkit-input-placeholder {
   color: #FFFFFF;
 }
 
-input::-moz-placeholder {
+::-moz-placeholder {
   color: #FFFFFF;
 }
 
-input:-ms-input-placeholder {
+:-ms-input-placeholder {
   color: #FFFFFF;
 }
 
-input:focus::-webkit-input-placeholder {
+:focus::-webkit-input-placeholder {
   opacity: 0;
 }
 
-input:focus::-moz-placeholder {
+:focus::-moz-placeholder {
   opacity: 0;
 }
 
-input:focus:-ms-input-placeholder {
+:focus:-ms-input-placeholder {
   opacity: 0;
 }
 
