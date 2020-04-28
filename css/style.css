@@ -582,7 +582,7 @@ a {
 
 .questions-input:focus {
   background-color: #1bb5f7;
-  border: solid 1px #4D90FE;
+  outline: solid 2px #4D90FE;
 }
 
 .question-area-paper {
@@ -608,7 +608,7 @@ a {
 
 .question-area:focus {
   background-color: #1bb5f7;
-  border: solid 1px #4D90FE;
+  outline: solid 2px #4D90FE;
 }
 
 .send-question {
