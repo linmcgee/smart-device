@@ -146,13 +146,13 @@
         <p>Мы проконсультируем Вас бесплатно</p>
         <form class="questions-form">
           <label class="visually-hidden" for="enter-your-name">Введите имя</label>
-          <input class="questions-input data-field" type="text" name="your-name" id="enter-your-name" value="Имя"
+          <input class="questions-input data-field" type="text" name="your-name" id="enter-your-name" placeholder="Имя"
             required>
           <label class="visually-hidden" for="enter-your-phone">Введите телефон</label>
           <input class="questions-input data-field" type="tel" name="your-phone" id="enter-your-phone" value="Телефон"
             required>
           <label class="visually-hidden" for="enter-question">Введите телефон</label>
-          <textarea class="question-area question-area-paper" name="question-field" id="enter-question" required>Ваш вопрос</textarea>
+          <textarea class="question-area question-area-paper" name="question-field" id="enter-question" placeholder="Ваш вопрос" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></textarea>
           <button class="send-question send-question-paper" type="submit" name="quest-send">Задать вопрос</button>
           <input class="visually-hidden" type="checkbox" name="personal-data" id="check-personal-data" checked required>
           <label class="personal-data personal-data-paper" for="check-personal-data">Я согласен на обработку персональных данных</label>
@@ -247,11 +247,11 @@
     <button class="close"></button>
     <form class="popup-form">
       <label class="visually-hidden" for="enter-your-name-popup">Введите имя</label>
-      <input class="questions-input questions-input-popup" name="first-name" type="text" value="Имя" id="enter-your-name-popup" required>
+      <input class="questions-input questions-input-popup" name="first-name" type="text" placeholder="Имя" id="enter-your-name-popup" required>
       <label class="visually-hidden" for="enter-your-phone-popup">Введите телефон</label>
-      <input class="questions-input questions-input-popup" name="number-tel" type="tel" value="Телефон" id="enter-your-phone-popup" required>
+      <input class="questions-input questions-input-popup" name="number-tel" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Телефон" id="enter-your-phone-popup" required>
       <label class="visually-hidden" for="enter-question-popup">Введите вопрос</label>
-      <textarea class="question-area question-area-popup" name="question-text" id="enter-question-popup" required>Ваш вопрос</textarea>
+      <textarea class="question-area question-area-popup" name="question-text" id="enter-question-popup" placeholder="Ваш вопрос" required></textarea>
       <button class="send-question send-question-popup" type="submit" name="send">Отправить</button>
       <input class="visually-hidden checkbox-popup" type="checkbox" name="personal-data" id="check-personal-data-popup" checked required>
       <label class="personal-data personal-data-popup" for="check-personal-data-popup">Я согласен на обработку персональных данных</label>
