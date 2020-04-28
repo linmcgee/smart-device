@@ -713,27 +713,23 @@ a {
   opacity: 0;
 }
 
-textarea::-webkit-input-placeholder {
+::-moz-placeholder {
   color: #FFFFFF;
 }
 
-textarea::-moz-placeholder {
+:-ms-input-placeholder {
   color: #FFFFFF;
 }
 
-textarea:-ms-input-placeholder {
-  color: #FFFFFF;
-}
-
-textarea:focus::-webkit-input-placeholder {
+:focus::-webkit-input-placeholder {
   opacity: 0;
 }
 
-textarea:focus::-moz-placeholder {
+:focus::-moz-placeholder {
   opacity: 0;
 }
 
-textarea:focus:-ms-input-placeholder {
+:focus:-ms-input-placeholder {
   opacity: 0;
 }
 
