@@ -22,3 +22,8 @@ close.addEventListener("click", function (evt) {
         }
     }
 });
+
+$(document).ready(function(){
+  $('.telephone-form').mask('+0(000)-000-0000');
+});
+
